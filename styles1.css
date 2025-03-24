@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;  /* Black background */
+    margin: 0;
+    padding: 0;
+}
+
+.level-header {
+    background-color: #e50914;
+    color: white;
+    padding: 1rem;
+}
+
+.alphabet-container {
+    position: relative;
+    margin-top: 50px;
+}
+
+.alphabet-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#alphabet {
+    font-size: 5rem;
+    margin: 0;
+    color: white;  /* Ensure the alphabet is visible on the image */
+}
+
+#sign-image, #quiz-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.nav-buttons {
+    margin-top: 20px;
+}
+
+.nav-buttons button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #b20710;
+}
+
+.quiz-container {
+    display: none;
+    margin-top: 20px;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.option-btn {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.option-btn:hover {
+    background-color: #b20710;
+}
